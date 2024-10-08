@@ -1,0 +1,13 @@
+spring:
+    data:
+      mongodb:
+        username: 
+        password:
+        host: localhost
+        port: 27017
+        database: web-socket
+        authentication-database: admin
+    application:
+        name: web-socket
+server:
+  port: 8088
